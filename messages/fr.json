@@ -1,0 +1,129 @@
+{
+  "commun": {
+    "titre": "Détecteur de Doublons",
+    "sousTitre": "Solution Professionnelle de Déduplication",
+    "description": "Identifiez et gérez les fichiers dupliqués avec une détection précise basée sur hash MD5",
+    "chargement": "Chargement...",
+    "erreur": "Une erreur s'est produite",
+    "succes": "Opération réussie",
+    "francais": "Français",
+    "anglais": "English",
+    "modeClair": "Mode Clair",
+    "modeNoir": "Mode Sombre",
+    "deconnexion": "Déconnexion",
+    "partagr": "Partager",
+    "televerser": "Téléverser"
+  },
+  "navigation": {
+    "accueil": "Accueil",
+    "scan": "Scan de Fichiers",
+    "doublons": "Doublons Détectés",
+    "rapports": "Rapports",
+    "parametres": "Paramètres"
+  },
+  "scan": {
+    "titre": "Scanner un Dossier",
+    "sousTitre": "Sélectionnez un dossier pour scanner et détecter les doublons exacts",
+    "chemin": "Chemin du Dossier",
+    "cheminPlaceholder": "Exemple: /chemin/vers/dossier",
+    "boutonScan": "Démarrer le Scan",
+    "enCours": "Scan en cours...",
+    "resultats": "Résultats du Scan",
+    "fichierAnalyses": "Fichiers analysés",
+    "tempsEcoule": "Temps écoulé",
+    "fichierScanne": "fichiers scannés",
+    "doublonsTrouves": "doublons trouvés",
+    "tauxDoublons": "Taux de doublons"
+  },
+  "doublons": {
+    "titre": "Doublons Détectés",
+    "sousTitre": "Liste des fichiers exactement dupliqués",
+    "nonDoublons": "Aucun doublon détecté",
+    "groupes": "Groupes de Doublons",
+    "nombreFichiers": "Fichiers",
+    "tailleTotal": "Taille totale",
+    "economie": "Espace économisable",
+    "hash": "Hash MD5",
+    "cheminFichier": "Chemin du fichier",
+    "tailleFichier": "Taille",
+    "dateModification": "Modifié",
+    "propriete": "Propriétaire",
+    "supprimer": "Supprimer les doublons",
+    "selectionner": "Sélectionner",
+    "suppression": "Suppression en cours...",
+    "suppressionReussie": "Fichiers supprimés avec succès",
+    "erreurSuppression": "Erreur lors de la suppression"
+  },
+  "rapports": {
+    "titre": "Rapports et Analyses",
+    "sousTitre": "Statistiques détaillées de déduplication",
+    "statistiques": "Statistiques Globales",
+    "totalFichiers": "Total de Fichiers",
+    "totalDoublons": "Total de Doublons",
+    "tailleRecuperee": "Taille Récupérée",
+    "tauxDeduplication": "Taux de Déduplication",
+    "graphiques": {
+      "distribution": "Distribution par Type de Fichier",
+      "chronologie": "Chronologie de Détection",
+      "taille": "Répartition par Taille"
+    },
+    "exportation": "Exporter le Rapport",
+    "formatPDF": "Format PDF",
+    "formatCSV": "Format CSV",
+    "formatJSON": "Format JSON"
+  },
+  "parametres": {
+    "titre": "Paramètres",
+    "sousTitre": "Configuration de l'application",
+    "langue": "Langue",
+    "theme": "Thème",
+    "themeAuto": "Automatique",
+    "themeClair": "Clair",
+    "themeSombre": "Sombre",
+    "notifications": "Notifications",
+    "notificationsActivees": "Activer les notifications",
+    "securite": "Sécurité",
+    "confirmationSuppression": "Demander confirmation avant suppression",
+    "affichageAvance": "Affichage Avancé",
+    "affichageHashs": "Afficher les hashs MD5",
+    "chiffresSignificatifs": "Chiffres significatifs pour les calculs",
+    "sauvegarder": "Sauvegarder les paramètres",
+    "reinitialiser": "Réinitialiser"
+  },
+  "accueil": {
+    "bienvenue": "Bienvenue",
+    "presentation": "Détection Professionnelle de Doublons",
+    "description": "Une solution complète pour identifier et gérer les fichiers dupliqués sur vos systèmes de stockage",
+    "caracteristiques": {
+      "titre": "Caractéristiques Principales",
+      "scan": "Scan Rapide et Fiable",
+      "scanDesc": "Analyse complète des dossiers avec hachage MD5 pour une détection précise",
+      "exacts": "Détection des Doublons Exacts",
+      "exactsDesc": "Identification garantie des fichiers strictement identiques",
+      "rapports": "Rapports Détaillés",
+      "rapportsDesc": "Statistiques complètes et exportation en plusieurs formats",
+      "interface": "Interface Moderne",
+      "interfaceDesc": "Tableau de bord intuitif avec mode sombre automatique"
+    },
+    "demarrage": "Commencer",
+    "scannerDossier": "Scanner un Dossier"
+  },
+  "kpis": {
+    "fichiersTotaux": "Fichiers Totaux",
+    "fichiersDupliques": "Fichiers Dupliqués",
+    "spaceSaved": "Espace Économisable",
+    "detectionTime": "Temps de Détection",
+    "duplicateRate": "Taux de Doublons",
+    "storageOptimization": "Optimisation du Stockage"
+  },
+  "messages": {
+    "scanEnCours": "Scan en cours...",
+    "scanTermine": "Scan terminé avec succès",
+    "doublonsTrouves": "Doublons trouvés: {count}",
+    "aucunDoublon": "Aucun doublon trouvé",
+    "erreurChargement": "Erreur lors du chargement des données",
+    "fichierSupprime": "Fichier supprimé avec succès",
+    "confirmationSuppression": "Êtes-vous sûr de vouloir supprimer ce fichier?",
+    "operationAnnulee": "Opération annulée"
+  }
+}

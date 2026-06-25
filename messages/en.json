@@ -1,0 +1,129 @@
+{
+  "commun": {
+    "titre": "Duplicate Detector",
+    "sousTitre": "Professional Deduplication Solution",
+    "description": "Identify and manage duplicate files with precise MD5 hash-based detection",
+    "chargement": "Loading...",
+    "erreur": "An error occurred",
+    "succes": "Operation successful",
+    "francais": "Français",
+    "anglais": "English",
+    "modeClair": "Light Mode",
+    "modeNoir": "Dark Mode",
+    "deconnexion": "Logout",
+    "partagr": "Share",
+    "televerser": "Upload"
+  },
+  "navigation": {
+    "accueil": "Home",
+    "scan": "File Scan",
+    "doublons": "Duplicates Found",
+    "rapports": "Reports",
+    "parametres": "Settings"
+  },
+  "scan": {
+    "titre": "Scan a Folder",
+    "sousTitre": "Select a folder to scan and detect exact duplicates",
+    "chemin": "Folder Path",
+    "cheminPlaceholder": "Example: /path/to/folder",
+    "boutonScan": "Start Scan",
+    "enCours": "Scanning...",
+    "resultats": "Scan Results",
+    "fichierAnalyses": "Files analyzed",
+    "tempsEcoule": "Time elapsed",
+    "fichierScanne": "files scanned",
+    "doublonsTrouves": "duplicates found",
+    "tauxDoublons": "Duplicate rate"
+  },
+  "doublons": {
+    "titre": "Duplicates Detected",
+    "sousTitre": "List of exactly duplicated files",
+    "nonDoublons": "No duplicates detected",
+    "groupes": "Duplicate Groups",
+    "nombreFichiers": "Files",
+    "tailleTotal": "Total Size",
+    "economie": "Recoverable Space",
+    "hash": "MD5 Hash",
+    "cheminFichier": "File Path",
+    "tailleFichier": "Size",
+    "dateModification": "Modified",
+    "propriete": "Owner",
+    "supprimer": "Delete Duplicates",
+    "selectionner": "Select",
+    "suppression": "Deleting...",
+    "suppressionReussie": "Files deleted successfully",
+    "erreurSuppression": "Error deleting files"
+  },
+  "rapports": {
+    "titre": "Reports and Analytics",
+    "sousTitre": "Detailed deduplication statistics",
+    "statistiques": "Global Statistics",
+    "totalFichiers": "Total Files",
+    "totalDoublons": "Total Duplicates",
+    "tailleRecuperee": "Recovered Size",
+    "tauxDeduplication": "Deduplication Rate",
+    "graphiques": {
+      "distribution": "Distribution by File Type",
+      "chronologie": "Detection Timeline",
+      "taille": "Size Distribution"
+    },
+    "exportation": "Export Report",
+    "formatPDF": "PDF Format",
+    "formatCSV": "CSV Format",
+    "formatJSON": "JSON Format"
+  },
+  "parametres": {
+    "titre": "Settings",
+    "sousTitre": "Application configuration",
+    "langue": "Language",
+    "theme": "Theme",
+    "themeAuto": "Automatic",
+    "themeClair": "Light",
+    "themeSombre": "Dark",
+    "notifications": "Notifications",
+    "notificationsActivees": "Enable notifications",
+    "securite": "Security",
+    "confirmationSuppression": "Ask for confirmation before deletion",
+    "affichageAvance": "Advanced Display",
+    "affichageHashs": "Show MD5 hashes",
+    "chiffresSignificatifs": "Significant figures for calculations",
+    "sauvegarder": "Save Settings",
+    "reinitialiser": "Reset"
+  },
+  "accueil": {
+    "bienvenue": "Welcome",
+    "presentation": "Professional Duplicate Detection",
+    "description": "A complete solution to identify and manage duplicate files on your storage systems",
+    "caracteristiques": {
+      "titre": "Main Features",
+      "scan": "Fast and Reliable Scanning",
+      "scanDesc": "Complete folder analysis with MD5 hashing for precise detection",
+      "exacts": "Exact Duplicate Detection",
+      "exactsDesc": "Guaranteed identification of strictly identical files",
+      "rapports": "Detailed Reports",
+      "rapportsDesc": "Complete statistics and export in multiple formats",
+      "interface": "Modern Interface",
+      "interfaceDesc": "Intuitive dashboard with automatic dark mode"
+    },
+    "demarrage": "Get Started",
+    "scannerDossier": "Scan a Folder"
+  },
+  "kpis": {
+    "fichiersTotaux": "Total Files",
+    "fichiersDupliques": "Duplicate Files",
+    "spaceSaved": "Recoverable Space",
+    "detectionTime": "Detection Time",
+    "duplicateRate": "Duplicate Rate",
+    "storageOptimization": "Storage Optimization"
+  },
+  "messages": {
+    "scanEnCours": "Scan in progress...",
+    "scanTermine": "Scan completed successfully",
+    "doublonsTrouves": "Duplicates found: {count}",
+    "aucunDoublon": "No duplicates found",
+    "erreurChargement": "Error loading data",
+    "fichierSupprime": "File deleted successfully",
+    "confirmationSuppression": "Are you sure you want to delete this file?",
+    "operationAnnulee": "Operation cancelled"
+  }
+}
