@@ -2,13 +2,12 @@ import { getRequestConfig } from 'next-intl/server'
 import { routing } from './i18n/routing'
 
 export default getRequestConfig(async ({ locale }) => {
-  if (!routing.locales.includes(locale as any)) {
-    return {
-      messages: {},
-    }
-  }
+  const validLocale = routing.locales.includes(locale as any)
+    ? locale
+    : routing.defaultLocale // ou 'fr' si tu préfères
 
   return {
-    messages: (await import(`./messages/${locale}.json`)).default,
+    locale: validLocale, // ✅ OBLIGATOIRE
+    messages: (await import(`./messages/${validLocale}.json`)).default,
   }
 })
